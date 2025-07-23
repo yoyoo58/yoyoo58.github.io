@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test de code</title>
+    <link rel="shortcut icon" href="./icon.webp" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Acceuille</li>
+            <li>Boutique</li>
+            <li><a href="#form">Formulaire</a></li>
+        </ul>
+    </nav>
+    <header></header>
+    <main>
+        <section>
+            <ol>
+                <li>lk</li>
+                <li>de</li>
+            </ol>
+        </section>
+        <section>
+            <img src="./icon.webp" height="200" alt="Error dans la generation">
+            <div>
+                <table border="0" cellpadding="10">
+                    <thead>
+                        <tr>
+                            <th>col 1</th>
+                            <th>col 1</th>
+                            <th>col 1</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th colspan="2" rowspan="2">col 1</th>
+                            <th>col 1</th>
+                        </tr>
+                        <tr>
+                            <th>col 1</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <a href="https://htmlcheatsheet.com" target="_blank">html</a>
+                <a href="https://pixabay.com" target="_blank">pixabay</a>
+                <video src="./video.mp4" autoplay muted loop height="300"></video>
+            </div>
+        </section>
+        <section id="form">
+            <form action="">
+                <label for="n">Nom</label>
+                <input type="text" id="n" placeholder="Entrez votre Nom">
+                <br>
+                <label for="a">age</label>
+                <input type="number" id="a" placeholder="Entrez votre Age" value="14">
+                <br>
+                <label for="d">date de naissance</label>
+                <input type="date" id="d" placeholder="Entrez votre date de naissance">
+                <br>
+                <label for="f">poser votre dossier</label>
+                <input type="file" id="f">
+                <br>
+                <label for="s">Genre</label>
+                <select id="s">
+                    <option value="homme">Homme</option>
+                    <option selected="selected" value="femme">Femme</option>
+                </select>
+                <div>
+                    <input type="radio" id="r" name="type" checked>
+                    <label for="r">d</label>
+                    <input type="radio" id="r2" name="type">
+                    <label for="r2">t</label>
+                </div>
+                <textarea placeholder="Votre message" cols="200" rows="10"></textarea>
+                <br>
+                <input type="checkbox">
+                <br>
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="mailto:exemple@gmail.com"></a>
+        <a href="./notice.txt" download="notice">document</a>
+    </footer>
+</body>
+
+</html>
